@@ -45,18 +45,6 @@ Many personal finance and expense tracking applications are either overly comple
 
 ---
 
-## 📅 1-Week Plan CUBRICS Alignment Matrix
-
-| Day | Prescribed Work | SpendSmart Implementation Status |
-|:---:|---|---|
-| **Day 1** | **Define features, MongoDB schemas, and REST endpoint contract** | ✅ Completed — Schemas defined for `User`, `Transaction`, `Budget`, and `Goal`. Complete REST API contracts specified with status codes, error handling, and query filters. |
-| **Day 2** | **Build Express server, database connection, and JSON APIs** | ✅ Completed — Express server with CORS, JSON body parser, MongoDB Atlas connection with in-memory memory server fallback, JWT authentication middleware, and modular controllers. |
-| **Day 3** | **Build React pages, forms, API calls with Axios or Fetch** | ✅ Completed — Modular React SPA with Vite, custom design tokens, Axios service layer, Dashboard, Transactions table, Targets/Goals page, Auth page, and reactive modals. |
-| **Day 4** | **Complete CRUD flows, validation, loading/error states** | ✅ Completed — Full CRUD on Transactions (create, read, edit, delete), Goals (create, deposit, edit, delete), and Budgets. Comprehensive validation, toast notifications (`react-hot-toast`), and loading spinners. |
-| **Day 5** | **Test APIs, fix bugs, write README, deploy frontend and backend** | ✅ Completed — Supertest API integration tests, clean slate account isolation, fixed modal centering with glassmorphic backdrops, full documentation, and production build readiness. |
-
----
-
 ## ✨ Key Features
 
 ### 1. 🔮 Spending Personality Engine (User Archetypes)
@@ -387,7 +375,7 @@ Import the collection file located at:
 
 ---
 
-## 🎓 Faculty Demonstration Walkthrough
+## 🎓 Demonstration Walkthrough
 
 To perform a 5-minute flawless live demonstration:
 1. **Open Dashboard (`http://localhost:5173`)**:
